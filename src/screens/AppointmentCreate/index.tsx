@@ -13,7 +13,7 @@ import { TextArea } from '../../components/TextArea';
 import { Button } from '../../components/Button';
 import { ModalView } from '../../components/ModalView';
 import { Guilds } from '../Guilds';
-import { GuildProps } from '../../components/Appointment';
+import { GuildProps } from '../../components/Guild';
 export function AppointmentCreate() {
     const [category, setCategory] = useState('');
     const [openGuildsModal, setOpenGuildsModal] = useState(false);
